@@ -1,0 +1,30 @@
+
+.app_container {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    width: 640px;
+    height: 270px;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.app_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.app_nodes {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
